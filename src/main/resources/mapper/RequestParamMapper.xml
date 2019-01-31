@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.f.mvc.mapper.RequestParamMapper">
+  <resultMap id="BaseResultMap" type="com.f.mvc.entity.RequestParam">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="request_id" jdbcType="BIGINT" property="requestId" />
+    <result column="field_key" jdbcType="VARCHAR" property="fieldKey" />
+    <result column="field_type" jdbcType="VARCHAR" property="fieldType" />
+    <result column="default_value" jdbcType="VARCHAR" property="defaultValue" />
+    <result column="field_order" jdbcType="INTEGER" property="fieldOrder" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="modify_user_id" jdbcType="BIGINT" property="modifyUserId" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+  </resultMap>
+</mapper>

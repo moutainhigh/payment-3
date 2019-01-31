@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.f.mvc.mapper.SignSettingMapper">
+  <resultMap id="BaseResultMap" type="com.f.mvc.entity.SignSetting">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="type" jdbcType="INTEGER" property="type" />
+    <result column="foreign_key" jdbcType="VARCHAR" property="foreignKey" />
+    <result column="sign_type" jdbcType="VARCHAR" property="signType" />
+    <result column="contains_key" jdbcType="BIT" property="containsKey" />
+    <result column="key_value_split" jdbcType="VARCHAR" property="keyValueSplit" />
+    <result column="value_split" jdbcType="VARCHAR" property="valueSplit" />
+    <result column="key_prefix" jdbcType="VARCHAR" property="keyPrefix" />
+    <result column="key_first" jdbcType="BIT" property="keyFirst" />
+    <result column="upper_case" jdbcType="BIT" property="upperCase" />
+    <result column="addition_setting" jdbcType="VARCHAR" property="additionSetting" />
+  </resultMap>
+</mapper>

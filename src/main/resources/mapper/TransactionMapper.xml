@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.f.mvc.mapper.TransactionMapper">
+  <resultMap id="BaseResultMap" type="com.f.mvc.entity.Transaction">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="channel_id" jdbcType="VARCHAR" property="channelId" />
+    <result column="channle_name" jdbcType="VARCHAR" property="channleName" />
+    <result column="merchant_id" jdbcType="VARCHAR" property="merchantId" />
+    <result column="merchant_name" jdbcType="VARCHAR" property="merchantName" />
+    <result column="total_amt" jdbcType="INTEGER" property="totalAmt" />
+    <result column="total_fee_t1" jdbcType="INTEGER" property="totalFeeT1" />
+    <result column="total_fee_t0" jdbcType="INTEGER" property="totalFeeT0" />
+    <result column="free" jdbcType="INTEGER" property="free" />
+    <result column="tran_fee" jdbcType="INTEGER" property="tranFee" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+  </resultMap>
+</mapper>

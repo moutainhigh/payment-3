@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.f.mvc.mapper.OrderMapper">
+  <resultMap id="BaseResultMap" type="com.f.mvc.entity.Order">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="channel_id" jdbcType="VARCHAR" property="channelId" />
+    <result column="channel_name" jdbcType="VARCHAR" property="channelName" />
+    <result column="order_no" jdbcType="VARCHAR" property="orderNo" />
+    <result column="out_trade_no" jdbcType="VARCHAR" property="outTradeNo" />
+    <result column="merht_account" jdbcType="VARCHAR" property="merhtAccount" />
+    <result column="merchant_id" jdbcType="VARCHAR" property="merchantId" />
+    <result column="merchant_name" jdbcType="VARCHAR" property="merchantName" />
+    <result column="card_no" jdbcType="BIGINT" property="cardNo" />
+    <result column="bank_code" jdbcType="VARCHAR" property="bankCode" />
+    <result column="bank_name" jdbcType="VARCHAR" property="bankName" />
+    <result column="account_name" jdbcType="VARCHAR" property="accountName" />
+    <result column="bank_branch" jdbcType="VARCHAR" property="bankBranch" />
+    <result column="amount" jdbcType="INTEGER" property="amount" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="complete_time" jdbcType="TIMESTAMP" property="completeTime" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+    <result column="req_json" jdbcType="LONGVARCHAR" property="reqJson" />
+    <result column="res_json" jdbcType="LONGVARCHAR" property="resJson" />
+    <result column="channel_result" jdbcType="LONGVARCHAR" property="channelResult" />
+  </resultMap>
+</mapper>
